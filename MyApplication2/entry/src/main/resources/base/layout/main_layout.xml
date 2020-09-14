@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:width="match_parent"
+        ohos:height="match_parent"
+        ohos:background_element="#ffffff">
+    <Text
+            ohos:id="$+id:text"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:center_in_parent="true"
+            ohos:text="Hello World"
+            ohos:text_color="red"
+            ohos:text_size="32fp"/>
+    <Button
+            ohos:id="$+id:button"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:text_size="19fp"
+            ohos:text="Next"
+            ohos:top_padding="8vp"
+            ohos:bottom_padding="8vp"
+            ohos:right_padding="80vp"
+            ohos:left_padding="80vp"
+            ohos:bottom_margin="30vp"
+            ohos:text_color="white"
+            ohos:background_element="$graphic:button_element"
+            ohos:center_in_parent="true"
+            ohos:align_parent_bottom="true"/>
+</DependentLayout>
